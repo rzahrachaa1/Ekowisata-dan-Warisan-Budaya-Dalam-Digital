@@ -1,0 +1,200 @@
+body {
+    background-color: #BBC863;
+}
+.div-navbar {
+    max-width: 95%;
+    margin:auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    display:grid;
+    padding: 0.3rem;
+    background-color: #31694E;
+    gap: 0;
+    border-radius: 0.4rem;
+    box-shadow: 2px 3px 1px 3px rgba(208, 208, 208, 0.6);
+}
+.h1-navbar {
+    margin: 0.3em 0 0 0;
+    text-shadow: 2px 2px 4px #00000099;
+    color: white;
+    margin: 0;
+}
+.h2-navbar {
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px #00000099;
+    color: white;
+}
+.div-btn-navbar {
+    display: block;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.btn-navbar1:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);}
+.btn-navbar1 {
+    width: 29%;
+    margin-top: 1rem;
+    height: 2em;
+    border-radius: .3em;
+    background-color: #658C58;
+    border-color: white;
+    border-style:groove;
+    font-size: 1em;
+    margin-top: 0.5em;
+    color:beige;
+    text-shadow: 2px 2px 4px #d0d0d099;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.a-btn-navbar1 {
+    color: white;
+}
+.div-img-idc {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    position: relative;
+}
+.img-idc {
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.709), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 2em;
+}
+.div-text-idc    {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("sangiran2.jpg");
+  background-size: 100%;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border-radius: 2em;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.div-img-idc:hover .div-text-idc {
+  width: 100%;
+}
+.p-text-idc {
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    width: 90%;
+    text-align:center;
+    margin-left: 5%;
+}
+.p-apa {
+    size: 2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 0.5em;
+    color: white;
+    text-shadow: 2px 2px 9px #00000099;
+}
+.p-apa2 {
+    font-size: 0.8rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    text-shadow: 2px 2px 9px #00000099;
+}
+.div-content {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    display:grid;
+    background-color: rgb(49, 105, 78, 0.7);
+    margin-top: 0.7em;
+}
+.div-content-ekowisata {
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+.p-apa3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    color: white;
+    align-items: left;
+}
+.p-content {
+    font-size: 1.2em;
+    margin-top: 0.1em;
+    color: white;
+}
+.img-ekowisata {
+    max-width: 40%;
+    height: auto;
+}
+.p-ekowisata {
+    font-size: 1.2em;
+    margin-top: 0.1em;
+    color: white;
+}
+.btn-mini-games {
+    max-width: 50%;
+    margin-left: 25%;
+    height: auto;
+    background-color:#BBC863;
+    border-color: #31694E;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 9px #00000099;
+    font-size: 1em;
+}
+.div-video {
+    margin-left: 2.5%;
+    max-width:100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.video {
+    max-width: 80%;
+    border-radius: 0.5em;
+}
+.video:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.709), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.h1-saran {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius:2em;
+    color: white;
+}
+.button-saran {
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    font-size: 1em;
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.a-saran {
+    font-style: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
